@@ -5,7 +5,7 @@ body {
 /*text*/
 h1,h2,h4,h5,h6,p {
   font-family: sans-serif;
-  color: gainsboro;
+  color: rgb(114, 107, 107);
   font-size: medium;
   text-align: center;
   padding-left: 30px;
@@ -14,10 +14,10 @@ h1,h2,h4,h5,h6,p {
 
 h3{
   font-family: sans-serif;
-  color: gainsboro;
+  color: rgb(114, 107, 107);
   font-size: large;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 30px;
   margin: none;
 }
 
@@ -28,14 +28,21 @@ nav{
 }
 /*I wanted my footer to be a different color*/
 footer{
-  background-color: gainsboro;
+  background-color: rgb(114, 107, 107);
   padding-bottom: 50px;
   padding-top: 10px;
 }
+
 footer p{
   color: white;
   text-align: left;
 }
+
+footer ol{
+  color: white;
+  text-align: left;
+}
+
 
 /*nav bar text*/
 nav {
@@ -45,12 +52,14 @@ nav {
 
 /*added image specifics*/
 img {
-	width: 100%;
+	width: 40%;
+  margin: auto;
+  display: block;
 }
 
 a:link{
   font-family: sans-serif;
-  color: gainsboro;
+  color: rgb(114, 107, 107);
   font-size: medium;
   text-align: center;
   background-color: #fff;
